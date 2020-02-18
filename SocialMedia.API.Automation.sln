@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialMedia.API.Automation", "SocialMedia.API.Automation\SocialMedia.API.Automation.csproj", "{2B139A69-11FC-492D-87F5-7C40AB0C15FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialMedia.API.Automation.Client", "SocialMedia.API.Automation.Client\SocialMedia.API.Automation.Client.csproj", "{41E16583-DC3D-41C1-87DE-567C20A93F7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialMedia.API.Automation.Common", "SocialMedia.API.Automation.Common\SocialMedia.API.Automation.Common.csproj", "{C18CF1BA-6FD0-4439-8DE0-8ADD2F856630}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B139A69-11FC-492D-87F5-7C40AB0C15FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B139A69-11FC-492D-87F5-7C40AB0C15FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B139A69-11FC-492D-87F5-7C40AB0C15FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B139A69-11FC-492D-87F5-7C40AB0C15FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41E16583-DC3D-41C1-87DE-567C20A93F7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41E16583-DC3D-41C1-87DE-567C20A93F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41E16583-DC3D-41C1-87DE-567C20A93F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41E16583-DC3D-41C1-87DE-567C20A93F7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C18CF1BA-6FD0-4439-8DE0-8ADD2F856630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C18CF1BA-6FD0-4439-8DE0-8ADD2F856630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C18CF1BA-6FD0-4439-8DE0-8ADD2F856630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C18CF1BA-6FD0-4439-8DE0-8ADD2F856630}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
