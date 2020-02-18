@@ -22,6 +22,7 @@
     <Folder Include="Test\" />
     <Folder Include="Utility\" />
     <Folder Include="Test\Users\" />
+    <Folder Include="Test\Profile\" />
   </ItemGroup>
   <ItemGroup>
     <None Update="config.json">
