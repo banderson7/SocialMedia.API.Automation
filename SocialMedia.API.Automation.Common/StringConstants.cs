@@ -21,6 +21,9 @@ namespace SocialMedia.API.Automaiton.Common
         public const string PasswordLengthError = "Password must be between 6 and 30 characters";
         public const string IncorrectPasswordError = "Password is incorrect";
         public const string UserNotFoundError = "User not found";
+        public const string HandleIsRequiredError = "Handle is required";
+        public const string StatusIsRequiredError = "Status is required";
+        public const string SkillsAreRequiredError = "Skills is required";
         #endregion
     }
 }

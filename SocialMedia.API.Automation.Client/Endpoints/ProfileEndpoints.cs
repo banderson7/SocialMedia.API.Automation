@@ -17,5 +17,17 @@ namespace SocialMedia.API.Automation.Client.Endpoints
 
             return client.Execute(request);
         }
+
+        public static IRestResponse CreateProfile(RestClient client, string token, ProfileModel profile)
+        {
+            IRestRequest request = new RequestBuilder(
+                StringConstants.ProfilePath,
+                Method.POST)
+                .AddHeader("Authorization", token)
+                .AddBody(profile.CreateProfileBody())
+                .Create();
+
+            return client.Execute(request);
+        }
     }
 }

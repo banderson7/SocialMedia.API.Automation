@@ -34,5 +34,10 @@ namespace SocialMedia.API.Automation.Common.Responses.Profile
         public string GithubUsername { get; set; }
         [JsonProperty("location")]
         public string Location { get; set; }
+
+        public string GetSkills()
+        {
+            return string.Join(",", Skills);
+        }
     }
 }
